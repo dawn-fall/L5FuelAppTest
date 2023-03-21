@@ -6,6 +6,6 @@ function calculate()
 
     let litreCost = (carEconomy * fuelCost) / 100;
 
-    document.getElementById("display").innerHTML = "This trip cost you $" + Math.round(litreCost * distance);
+    document.getElementById("display").innerHTML = "This trip will cost you $" + Math.round(litreCost * distance);
 
 }
